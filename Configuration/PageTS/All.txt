@@ -1,0 +1,7 @@
+#
+# PageTS for EnvAuto Bootstrap Site Package
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:envauto_bootstrap_site_package/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:envauto_bootstrap_site_package/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:envauto_bootstrap_site_package/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:envauto_bootstrap_site_package/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">

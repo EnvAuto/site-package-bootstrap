@@ -1,0 +1,44 @@
+#############
+#### RTE ####
+#############
+RTE {
+    config {
+        tt_content {
+            bodytext {
+                types {
+                    text {
+                        preset = envauto_bootstrap_site_package
+                    }
+                    textcolumn {
+                        preset = envauto_bootstrap_site_package
+                    }
+                    texticon {
+                        preset = envauto_bootstrap_site_package
+                    }
+                    textmedia {
+                        preset = envauto_bootstrap_site_package
+                    }
+                    textpic {
+                        preset = envauto_bootstrap_site_package
+                    }
+                    textteaser {
+                        preset = envauto_bootstrap_site_package
+                    }
+                    panel {
+                        preset = envauto_bootstrap_site_package
+                    }
+                }
+            }
+        }
+        tx_bootstrappackage_accordion_item {
+            bodytext {
+                preset = envauto_bootstrap_site_package
+            }
+        }
+        tx_bootstrappackage_tab_item {
+            bodytext {
+                preset = envauto_bootstrap_site_package
+            }
+        }
+    }
+}

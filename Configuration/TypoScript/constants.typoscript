@@ -1,0 +1,58 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.txt">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:envauto_bootstrap_site_package/Resources/Public/Images/logo.svg
+        fileInverted = EXT:envauto_bootstrap_site_package/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = EnvAuto Bootstrap Site Package
+        linktitle = EnvAuto Bootstrap Site Package
+    }
+    favicon {
+        file = EXT:envauto_bootstrap_site_package/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Partials/Page/
+        templateRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Layouts/
+        partialRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Partials/
+        templateRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:envauto_bootstrap_site_package/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+#######################################
+### REMOVE BOOTSTRAP LESS CONSTANTS ###
+#######################################
+plugin.bootstrap_package.settings.less >
+plugin.bootstrap_package.settings.overrideLessVariables >

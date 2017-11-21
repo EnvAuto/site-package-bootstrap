@@ -1,0 +1,29 @@
+#
+# BACKENDLAYOUT: EXAMPLE
+#
+mod {
+    web_layout {
+        BackendLayouts {
+            envauto_bootstrap_site_package_example {
+                title = LLL:EXT:envauto_bootstrap_site_package/Resources/Private/Language/locallang.xlf:backend_layout.example
+                config {
+                    backend_layout {
+                        colCount = 1
+                        rowCount = 1
+                        rows {
+                            1 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:envauto_bootstrap_site_package/Resources/Private/Language/locallang.xlf:backend_layout.column.normal
+                                        colPos = 0
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                icon = EXT:envauto_bootstrap_site_package/Resources/Public/Images/BackendLayouts/example.png
+            }
+        }
+    }
+}
