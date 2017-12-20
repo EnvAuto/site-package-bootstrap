@@ -13,8 +13,8 @@ page {
         fileInverted = EXT:envauto_bootstrap_site_package/Resources/Public/Images/logo-inverted.svg
         height = 52
         width = 192
-        alt = EnvAuto Bootstrap Site Package
-        linktitle = EnvAuto Bootstrap Site Package
+        alt = EnvAuto Logo
+        linktitle = EnvAuto Home
     }
     favicon {
         file = EXT:envauto_bootstrap_site_package/Resources/Public/Icons/favicon.ico
@@ -54,5 +54,5 @@ plugin.bootstrap_package_contentelements {
 #######################################
 ### REMOVE BOOTSTRAP LESS CONSTANTS ###
 #######################################
-plugin.bootstrap_package.settings.less >
-plugin.bootstrap_package.settings.overrideLessVariables >
+#plugin.bootstrap_package.settings.less >
+#plugin.bootstrap_package.settings.overrideLessVariables >

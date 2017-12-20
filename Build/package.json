@@ -6,7 +6,7 @@
     "url": "https://github.com/EnvAuto/site-package-bootstrap"
   },
   "homepage": "http://www.hof-university.de/",
-  "author": "Ion Sirotkin",
+  "author": "Ion Sirotkin, Ivan Iakimenko",
   "version": "1.0.0",
   "license": "GPL-2.0+",
   "devDependencies": {

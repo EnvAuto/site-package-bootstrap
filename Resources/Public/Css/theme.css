@@ -1581,12 +1581,12 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 760px;
+    width: 748px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 980px;
+    width: 972px;
   }
 }
 @media (min-width: 1200px) {
@@ -7102,10 +7102,8 @@ h4 + h5 {
 @media (min-width: 768px) {
   .text-column {
     -webkit-column-count: 2;
-    -moz-column-count: 2;
     column-count: 2;
     -webkit-column-gap: 40px;
-    -moz-column-gap: 40px;
     column-gap: 40px;
   }
 }
@@ -7734,12 +7732,12 @@ body,
 }
 @media (min-width: 768px) {
   .carousel .item .valign {
-    width: 720px;
+    width: 708px;
   }
 }
 @media (min-width: 992px) {
   .carousel .item .valign {
-    width: 940px;
+    width: 932px;
   }
 }
 @media (min-width: 1200px) {
@@ -8891,7 +8889,7 @@ fieldset[disabled] .csc-form-confirmation-false input.focus {
 .pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
-  background: url('../../../Images/PhotoSwipe/default-skin.png') 0 0 no-repeat;
+  background: url('../../Images/PhotoSwipe/default-skin.png') 0 0 no-repeat;
   background-size: 264px 88px;
   width: 44px;
   height: 44px;
@@ -8900,7 +8898,7 @@ fieldset[disabled] .csc-form-confirmation-false input.focus {
   .pswp--svg .pswp__button,
   .pswp--svg .pswp__button--arrow--left:before,
   .pswp--svg .pswp__button--arrow--right:before {
-    background-image: url('../../../Images/PhotoSwipe/default-skin.svg');
+    background-image: url('../../Images/PhotoSwipe/default-skin.svg');
   }
   .pswp--svg .pswp__button--arrow--left,
   .pswp--svg .pswp__button--arrow--right {
@@ -9135,7 +9133,7 @@ a.pswp__share--download:hover {
   opacity: 1;
 }
 .pswp__preloader--active .pswp__preloader__icn {
-  background: url('../../../Images/PhotoSwipe/preloader.gif') 0 0 no-repeat;
+  background: url('../../Images/PhotoSwipe/preloader.gif') 0 0 no-repeat;
 }
 .pswp--css_animation .pswp__preloader--active {
   opacity: 1;
