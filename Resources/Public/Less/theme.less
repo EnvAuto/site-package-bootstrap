@@ -1,3 +1,22 @@
 // Basics
 @import '../../../../bootstrap_package/Resources/Public/Less/Theme/theme.less';
 @import 'variables.less';
+
+//
+// Frames override padding
+// --------------------------------------------------
+.frame {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  @media (min-width: @screen-sm) {
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  @media (min-width: @screen-md) {
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
